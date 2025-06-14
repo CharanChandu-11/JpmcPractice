@@ -32,6 +32,22 @@ function Volunteer() {
 
   return (
     <div className="relative min-h-screen bg-white text-black">
+        {/* Hero Section */}
+        <div className="relative h-[60vh] w-full">
+        <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://images.newindianexpress.com/uploads/user/imagelibrary/2020/4/9/w900X450/Bhumi_volunteers.jpg')`,
+            }}
+        ></div>
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">Become a Changemaker with Bhumi</h1>
+            <p className="text-lg md:text-xl max-w-3xl">
+            Join hands with thousands of passionate volunteers working toward education, environment, and equality for all.
+            </p>
+        </div>
+        </div>
+
       {/* Registration Panel */}
       <div className="max-w-4xl mx-auto p-6">
         <h1 className="text-3xl font-bold text-green-600 mb-6">Volunteer Registration</h1>
