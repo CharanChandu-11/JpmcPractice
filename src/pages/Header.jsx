@@ -17,7 +17,7 @@ function Header({ scrollToSection, homeRef, aboutRef, workRef, involvedRef, cont
 
         {/* Navigation */}
         <nav className="flex flex-wrap space-x-4 text-sm md:text-base font-medium items-center">
-          <button onClick={() => scrollToSection(homeRef)} className="hover:text-orange-500 transition">Home</button>
+          <button onClick={() => scrollToSection(homeRef)} className="hover:text-orange-500 transition"><Link to="/">Home</Link></button>
           <button onClick={() => scrollToSection(aboutRef)} className="hover:text-orange-500 transition">About Us</button>
           <button onClick={() => scrollToSection(workRef)} className="hover:text-orange-500 transition">Our Work</button>
           <button onClick={() => scrollToSection(involvedRef)} className="hover:text-orange-500 transition">Get Involved</button>
